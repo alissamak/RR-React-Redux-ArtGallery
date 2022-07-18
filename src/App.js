@@ -12,7 +12,7 @@ function App(props) {
     if(data.apiData){
       return <img style={{width: '100vw'}} src={data.apiData.primaryImage} alt={data.apiData.title}></img>
     }else{
-      return <p>image here</p>
+      return <p>Image here</p>
     }
   }
 
